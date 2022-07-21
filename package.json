@@ -1,3 +1,6 @@
 {
-	"name": "quin69-extension-server"
+	"name": "quin69-extension-server",
+	"scripts":{
+		"start": "app.js"
+	}
 }
