@@ -1,7 +1,11 @@
 {
 	"name": "quin69-extension-server",
-	"main": "app.js",
+	"version": "1.0.0",
+	"description": "",
 	"scripts":{
 		"start": "node app.js"
+	},
+	"engines": {
+    "node": "10.x"
 	}
 }
