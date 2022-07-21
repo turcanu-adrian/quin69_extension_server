@@ -31,7 +31,6 @@ req.write(postData);
 req.end();
 
 function startServer(accesstoken){	
-	const hostname = 'https://quin69-extension.herokuapp.com/';
 	const port = process.env.PORT || 3000;
 	token = accesstoken;
 
@@ -41,7 +40,7 @@ function startServer(accesstoken){
 	  res.end(isLive? isStalling.toString()+'\n'+streamStarted.toString()+'\n'+gamename : "");
 	});
 
-	server.listen(port, hostname, () => {
+	server.listen(port, () => {
 	  setInterval(function() {
 	  	const options = {
 		  hostname: 'api.twitch.tv',
