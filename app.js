@@ -31,7 +31,7 @@ req.write(postData);
 req.end();
 
 function startServer(accesstoken){	
-	const hostname = '127.0.0.1';
+	const hostname = 'https://quin69-extension.herokuapp.com/';
 	const port = 3000;
 	token = accesstoken;
 
